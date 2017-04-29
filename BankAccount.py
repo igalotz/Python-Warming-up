@@ -9,9 +9,10 @@ class BankAccount(object):
         else:
             sys.exit("Numer konta ma być liczbą całkowitą!")
 
+    @property
     def get_number(self):
         return self.__number
-
+    @property
     def get_cash(self):
         return self.__cash
 
